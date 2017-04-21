@@ -1,26 +1,4 @@
-title: Aaimaa Web Solutions
-description: As an Open Source Enthusiast Company, We love to initiate Open Source Projects as well. 
-
-url: https://aaimaa.github.io/
-baseurl: ""
-paginate_path: "blog/page:num/"
-permalink: blog/:title/
-
 markdown: kramdown
-highlighter: rouge
-gems: [jekyll-paginate]
-paginate: 5
-
-navigation:
- - title: Home
-   url: /index.html
- - title: About
-   url: /about
- - title: Contact
-   url: /contact
-
-social:
-   github: aaimaa
-   twitter: aaimaawebs
-   facebook: aaimaawebs
-   email: hello@aaimaa.in
+permalink: /blog/:title/
+gems:
+  - jekyll-sitemap
